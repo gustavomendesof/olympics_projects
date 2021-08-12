@@ -11,5 +11,5 @@
 
 ### AppMaps
 
-![image](https://user-images.githubusercontent.com/79945103/129282947-1f43d40a-b7a5-4a99-9f48-3c98587a9959.png)
+![image](https://user-images.githubusercontent.com/79945103/129282947-1f43d40a-b7a5-4a99-9f48-3c98587a9959.png width="800")
 
