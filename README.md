@@ -1,1 +1,0 @@
-# olympics_projects
