@@ -30,7 +30,7 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 
 ## Etapa 3 - 11/08/2021
 
-### Wireframe
+### Wireframe (Em desenvolvimento)
 
 ![image](https://user-images.githubusercontent.com/79945103/129285227-688bb526-4727-4b69-9d28-84840ba6193a.png)
 
