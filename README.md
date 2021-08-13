@@ -25,6 +25,9 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 
 ![image](https://user-images.githubusercontent.com/79945103/129284510-71cf7f27-ee8f-4a8c-be18-64aa39e3a4e6.png)
 
+- Tipografia: Fonte (Roboto) googlefonts
+- Taxonomia: Ícones utilizados do site - flaticon
+
 
 
 
