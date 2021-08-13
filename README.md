@@ -38,6 +38,11 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 - Testes: Escolhemos fazer o teste A → B, por meio do LightHouse;
 
 
+## Etapa 4 -12/08/2021
+
+Wireframe
+
+
 
 
 
