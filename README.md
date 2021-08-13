@@ -13,9 +13,19 @@
 
 ![Olimpiadas](https://user-images.githubusercontent.com/79945103/129283462-48721849-74ed-4202-b74d-10b99fe6cd72.jpg)
 
+## Etapa 2 - 10/08/2021
+
 ### Fluxograma
 
 ![Fluxograma-Olimpíadas](https://user-images.githubusercontent.com/79945103/129284117-f2dd8223-2f1c-4852-911e-91b9b9061af2.png)
+
+### Paleta de Cores
+
+Serão utilizadas as seguintes cores em tonalidades diferentes, tanto cores mais escuras e mais claras
+
+![image](https://user-images.githubusercontent.com/79945103/129284510-71cf7f27-ee8f-4a8c-be18-64aa39e3a4e6.png)
+
+
 
 
 
