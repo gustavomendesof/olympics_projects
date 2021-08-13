@@ -42,8 +42,7 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 
 ### Wireframe (Em desenvolvimento)
 
-![image](https://user-images.githubusercontent.com/79945103/129285890-ef61330b-dce4-4c6d-93a6-df942cb41a0b.png)
-
+![image](https://user-images.githubusercontent.com/79945103/129285942-be831111-6daa-4f3e-8925-8093f33bec43.png)
 
 
 
