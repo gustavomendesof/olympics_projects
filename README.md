@@ -44,6 +44,10 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 
 ![image](https://user-images.githubusercontent.com/79945103/129285942-be831111-6daa-4f3e-8925-8093f33bec43.png)
 
+- Criação do workspace do projeto**(feito)**;
+- Criação de um quadro kanban para dev o projeto - GitHub**(feito)**;
+- Add sora cris no repositório**(feito)**;
+- Criação do repo do Git**(feito)**;
 
 
 
