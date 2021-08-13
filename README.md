@@ -1,7 +1,6 @@
 # olympics_projects
 
 
-
 ## Etapa 1 - 09/08/2021
 
 - Participantes do grupo: Gustavo Mendes, Eduardo Nicolodi;
@@ -14,7 +13,6 @@
 ### AppMaps
 
 ![Olimpiadas](https://user-images.githubusercontent.com/79945103/129283462-48721849-74ed-4202-b74d-10b99fe6cd72.jpg)
-
 
 
 ## Etapa 2 - 10/08/2021
@@ -33,7 +31,6 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 - Taxonomia: Ícones utilizados do site - flaticon;
 
 
-
 ## Etapa 3 - 11/08/2021
 
 ### Wireframe (Em desenvolvimento)
@@ -42,8 +39,6 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 
 - Imagens: Usaremos imagens dos tipos png e jpg, com tamanho de aproximadamente 350x250, nada que ultrapasse muito esses tamanhos;
 - Testes: Escolhemos fazer o teste A → B, por meio do LightHouse;
-
-
 
 
 ## Etapa 4 -12/08/2021
