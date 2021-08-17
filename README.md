@@ -53,5 +53,12 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 - Criação do repo do Git **(feito)**;
 
 
+## Etapa 4 -16/08/2021
+
+### Wireframe (Em desenvolvimento)
+
+### Codigo (Em desenvolvimento)
+
+### StyleApp (Em desenvolvimento)
 
 
