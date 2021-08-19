@@ -71,7 +71,7 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 ### StyleApp (Em desenvolvimento)
 
 
-## Etapa 7
+## Etapa 8
 
 ### Codigo (Em desenvolvimento)
 
