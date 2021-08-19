@@ -62,3 +62,19 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 ### StyleApp (Em desenvolvimento)
 
 
+## Etapa 6
+
+### Wireframe (Completo)
+
+### Codigo (Em desenvolvimento)
+
+### StyleApp (Em desenvolvimento)
+
+
+## Etapa 7
+
+### Codigo (Em desenvolvimento)
+
+### StyleApp (Em desenvolvimento)
+
+
