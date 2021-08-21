@@ -8,26 +8,24 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  void _abrirEmpresa() {
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => TelaEmpresa()));
+  }
 
-  void _abrirEmpresa(){
+  void _abrirServico() {
     Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context)=> TelaEmpresa() ));
+        context, MaterialPageRoute(builder: (context) => TelaEmpresa()));
   }
-  void _abrirServico(){
+
+  void _abrirCliente() {
     Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context)=> TelaEmpresa() ));
+        context, MaterialPageRoute(builder: (context) => TelaCliente()));
   }
-  void _abrirCliente(){
+
+  void _abrirContato() {
     Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context)=> TelaCliente() ));
-  }
-  void _abrirContato(){
-    Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context)=> TelaCliente() ));
+        context, MaterialPageRoute(builder: (context) => TelaCliente()));
   }
 
   @override
@@ -56,38 +54,34 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
-                    onPressed: _abrirEmpresa, 
-                    child: Text(
-                      'História'
-                    ),
+                    onPressed: _abrirEmpresa,
+                    child: Text('História'),
                     style: ElevatedButton.styleFrom(
-                        primary: Colors.yellow.shade700,
-                        textStyle: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                        ),
-                        minimumSize: Size(180, 65),
-                        shape: new RoundedRectangleBorder(
-                          borderRadius: new BorderRadius.circular(30.0),
-                        ),
+                      primary: Colors.yellow.shade700,
+                      textStyle: TextStyle(
+                        color: Colors.white,
+                        fontSize: 25,
                       ),
+                      minimumSize: Size(180, 65),
+                      shape: new RoundedRectangleBorder(
+                        borderRadius: new BorderRadius.circular(30.0),
+                      ),
+                    ),
                   ),
                   ElevatedButton(
-                    onPressed: _abrirEmpresa, 
-                    child: Text(
-                      'Raking'
-                    ),
+                    onPressed: _abrirEmpresa,
+                    child: Text('Raking'),
                     style: ElevatedButton.styleFrom(
-                        primary: Colors.blue,
-                        textStyle: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                        ),
-                        minimumSize: Size(180, 65),
-                        shape: new RoundedRectangleBorder(
-                          borderRadius: new BorderRadius.circular(30.0),
-                        ),
+                      primary: Colors.blue,
+                      textStyle: TextStyle(
+                        color: Colors.white,
+                        fontSize: 25,
                       ),
+                      minimumSize: Size(180, 65),
+                      shape: new RoundedRectangleBorder(
+                        borderRadius: new BorderRadius.circular(30.0),
+                      ),
+                    ),
                   ),
                 ],
               ),
@@ -99,38 +93,34 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
-                    onPressed: _abrirEmpresa, 
-                    child: Text(
-                      'Cadastro'
-                    ),
+                    onPressed: _abrirEmpresa,
+                    child: Text('Cadastro'),
                     style: ElevatedButton.styleFrom(
-                        primary: Colors.green[800],
-                        textStyle: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                        ),
-                        minimumSize: Size(180, 65),
-                        shape: new RoundedRectangleBorder(
-                          borderRadius: new BorderRadius.circular(30.0),
-                        ),
+                      primary: Colors.green[800],
+                      textStyle: TextStyle(
+                        color: Colors.white,
+                        fontSize: 25,
                       ),
+                      minimumSize: Size(180, 65),
+                      shape: new RoundedRectangleBorder(
+                        borderRadius: new BorderRadius.circular(30.0),
+                      ),
+                    ),
                   ),
                   ElevatedButton(
-                    onPressed: _abrirEmpresa, 
-                    child: Text(
-                      'Modalidades'
-                    ),
+                    onPressed: _abrirEmpresa,
+                    child: Text('Modalidades'),
                     style: ElevatedButton.styleFrom(
-                        primary: Colors.red,
-                        textStyle: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                        ),
-                        minimumSize: Size(180, 65),
-                        shape: new RoundedRectangleBorder(
-                          borderRadius: new BorderRadius.circular(30.0),
-                        ),
+                      primary: Colors.red,
+                      textStyle: TextStyle(
+                        color: Colors.white,
+                        fontSize: 25,
                       ),
+                      minimumSize: Size(180, 65),
+                      shape: new RoundedRectangleBorder(
+                        borderRadius: new BorderRadius.circular(30.0),
+                      ),
+                    ),
                   ),
                 ],
               ),
