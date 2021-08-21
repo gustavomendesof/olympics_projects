@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.olimpiadas">
+    package="com.example.agt_consultoria">
    <application
-        android:label="olimpiadas"
+        android:label="agt_consultoria"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
