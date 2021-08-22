@@ -1,5 +1,5 @@
-name: agt_consultoria
-description: AGT Consultoria
+name: olympic
+description: olimpcs hub
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -52,19 +52,23 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - img/logo.png
-    - img/cliente1.png
-    - img/cliente2.png
-    - img/cliente3.png
-    - img/detalhe_cliente.png
-    - img/detalhe_contato.png
-    - img/detalhe_empresa.png
-    - img/detalhe_servico.png
-    - img/menu_cliente.png
-    - img/menu_contato.png
-    - img/menu_empresa.png
-    - img/menu_servico.png
-    - img/coin.png
     - img/carregado.png
+    - img/atletismo.png
+    - img/badminton.jpg
+    - img/baseball.jpg
+    - img/basketball.jpg
+    - img/boxing.jpg
+    - img/canoe-slalom.jpg
+    - img/canoe-sprint.jpg
+    - img/cycling-bmx.jpg
+    - img/cycling-road.jpg
+    - img/football.jpg
+    - img/gymnastics-artistic.jpg
+    - img/judo.jpg
+    - img/sailing.jpg
+    - img/skateboarding.jpg
+    - img/volleyball.jpg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

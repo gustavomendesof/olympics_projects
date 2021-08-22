@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:agt_consultoria/ui/Home.dart';
+import 'package:olympic/ui/Home.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

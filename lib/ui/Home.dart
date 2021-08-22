@@ -1,5 +1,6 @@
-import 'package:agt_consultoria/telas/TelaCliente.dart';
-import 'package:agt_consultoria/telas/TelaEmpresa.dart';
+import 'package:olympic/telas/Modalidades.dart';
+import 'package:olympic/telas/Cadastro.dart';
+import 'package:olympic/telas/Historia.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -8,24 +9,24 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  void _abrirEmpresa() {
+  void _abrirHistoria() {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => TelaEmpresa()));
+        context, MaterialPageRoute(builder: (context) => Historia()));
   }
 
   void _abrirServico() {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => TelaEmpresa()));
+        context, MaterialPageRoute(builder: (context) => Historia()));
   }
 
-  void _abrirCliente() {
+  void _abrirCadastro() {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => TelaCliente()));
+        context, MaterialPageRoute(builder: (context) => Cadastro()));
   }
 
-  void _abrirContato() {
+  void _abrirModalidades() {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => TelaCliente()));
+        context, MaterialPageRoute(builder: (context) => Modalidades()));
   }
 
   @override
@@ -54,7 +55,7 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
-                    onPressed: _abrirEmpresa,
+                    onPressed: _abrirHistoria,
                     child: Text('História'),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.yellow.shade700,
@@ -69,10 +70,10 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                   ElevatedButton(
-                    onPressed: _abrirEmpresa,
+                    onPressed: _abrirHistoria,
                     child: Text('Raking'),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.blue,
+                      primary: Colors.red.shade700,
                       textStyle: TextStyle(
                         color: Colors.white,
                         fontSize: 25,
@@ -93,10 +94,10 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
-                    onPressed: _abrirEmpresa,
+                    onPressed: _abrirCadastro,
                     child: Text('Cadastro'),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.green[800],
+                      primary: Colors.green[700],
                       textStyle: TextStyle(
                         color: Colors.white,
                         fontSize: 25,
@@ -108,10 +109,10 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                   ElevatedButton(
-                    onPressed: _abrirEmpresa,
+                    onPressed: _abrirModalidades,
                     child: Text('Modalidades'),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.red,
+                      primary: Colors.blue.shade700,
                       textStyle: TextStyle(
                         color: Colors.white,
                         fontSize: 25,
