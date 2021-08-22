@@ -2,6 +2,7 @@ import 'package:olympic/telas/Modalidades.dart';
 import 'package:olympic/telas/Cadastro.dart';
 import 'package:olympic/telas/Historia.dart';
 import 'package:flutter/material.dart';
+import 'package:olympic/telas/Ranking.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -14,9 +15,9 @@ class _HomeState extends State<Home> {
         context, MaterialPageRoute(builder: (context) => Historia()));
   }
 
-  void _abrirServico() {
+  void _abrirRanking() {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => Historia()));
+        context, MaterialPageRoute(builder: (context) => Ranking()));
   }
 
   void _abrirCadastro() {
@@ -46,7 +47,11 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             // LOGO
-            Image.asset("img/logo.png"),
+
+            Padding(
+              padding: EdgeInsets.all(15),
+              child: Image.asset("img/logo.png"),
+            ),
 
             // MENU
             Padding(
@@ -70,7 +75,7 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                   ElevatedButton(
-                    onPressed: _abrirHistoria,
+                    onPressed: _abrirRanking,
                     child: Text('Raking'),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.red.shade700,

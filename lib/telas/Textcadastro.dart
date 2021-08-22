@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class Cad {
   final String nome;
   final String email;

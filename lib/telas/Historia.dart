@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Historia extends StatefulWidget {
@@ -13,7 +12,7 @@ class _Historia extends State<Historia> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
-          "Historia",
+          "História",
           style: TextStyle(fontSize: 24),
         ),
         backgroundColor: Colors.yellow.shade700,
@@ -23,13 +22,12 @@ class _Historia extends State<Historia> {
           padding: EdgeInsets.fromLTRB(10, 15, 10, 0),
           child: Column(
             children: <Widget>[
-              //LOGO e TITULO
               Row(
                 children: <Widget>[
                   Padding(
                     padding: EdgeInsets.only(left: 15),
                     child: Text(
-                      "Historia das olimpiadas",
+                      "História das Olimpíadas",
                       style: TextStyle(
                           fontSize: 30,
                           color: Colors.yellow.shade700,
@@ -39,12 +37,10 @@ class _Historia extends State<Historia> {
                 ],
               ),
 
-              // PAI DOS CARDS
               Padding(
                 padding: EdgeInsets.only(top: 30),
                 child: Column(
                   children: <Widget>[
-                    // CARD 1
                     Card(
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.only(
@@ -56,7 +52,7 @@ class _Historia extends State<Historia> {
                         alignment: Alignment.center,
                         width: double.maxFinite,
                         child: Text(
-                          "Inicico",
+                          "Origem",
                           style: TextStyle(
                               fontSize: 24,
                               color: Colors.white,
@@ -65,7 +61,11 @@ class _Historia extends State<Historia> {
                       ),
                     ),
 
-                    // CARD 2
+                    Padding(
+                      padding: EdgeInsets.all(15),
+                      child: Image.asset("img/origem.jpg"),
+                    ),
+
                     Card(
                       margin: EdgeInsets.only(top: 15),
                       shape: RoundedRectangleBorder(
@@ -91,7 +91,6 @@ class _Historia extends State<Historia> {
                           )),
                     ),
 
-                    // CARD 3
                     Card(
                       margin: EdgeInsets.only(top: 20),
                       shape: RoundedRectangleBorder(
@@ -138,9 +137,13 @@ class _Historia extends State<Historia> {
                       ),
                     ),
 
-                    // CARD 4
+                    Padding(
+                      padding: EdgeInsets.all(15),
+                      child: Image.asset("img/moderna.jpg"),
+                    ),
+
                     Card(
-                      margin: EdgeInsets.fromLTRB(0, 20, 0, 20),
+                      margin: EdgeInsets.only(top: 20),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.only(
                               topLeft: Radius.circular(25),
@@ -165,7 +168,7 @@ class _Historia extends State<Historia> {
                     ),
 
                     Card(
-                      margin: EdgeInsets.fromLTRB(0, 20, 0, 20),
+                      margin: EdgeInsets.only(top: 20),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.only(
                               topLeft: Radius.circular(25),

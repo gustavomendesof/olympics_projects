@@ -29,8 +29,13 @@ class _SplashState extends State<Splash> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Image.asset('img/logo.png'),
-            Image.asset('img/carregado.png'),
+            Padding(
+              padding: EdgeInsets.all(30),
+              child: Image.asset("img/logo.png"),
+            ),
+            Image.asset('img/loading.gif',
+             width: 70,
+            ),
           ],
         ),
       ),

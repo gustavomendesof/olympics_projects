@@ -68,7 +68,15 @@ flutter:
     - img/sailing.jpg
     - img/skateboarding.jpg
     - img/volleyball.jpg
-
+    - img/bandeira-eua.png
+    - img/bandeira-bra.png
+    - img/bandeira-chi.png
+    - img/bandeira-fra.png
+    - img/bandeira-gra.png
+    - img/bandeira-urs.png
+    - img/origem.jpg
+    - img/moderna.jpg
+    - img/loading.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
