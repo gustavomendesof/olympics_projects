@@ -78,3 +78,11 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 ### StyleApp (Em desenvolvimento)
 
 
+## Etapa 9
+
+### Teste LightHouse
+
+![image](https://user-images.githubusercontent.com/67390202/130526121-b64a053e-ddac-47a3-bd23-dad4bf77c1c0.png)
+
+
+
