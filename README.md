@@ -86,7 +86,13 @@ Serão utilizadas as seguintes cores em tonalidades diferentes, tanto mais escur
 
 ### Wireframe
 
-![image](https://user-images.githubusercontent.com/67390202/130526335-74d5eca1-6195-409a-a991-9aa3e35392be.png) ![image](https://user-images.githubusercontent.com/67390202/130526273-ba89daa1-c5ce-4497-8077-e2edce2529ec.png)
+![image](https://user-images.githubusercontent.com/67390202/130526335-74d5eca1-6195-409a-a991-9aa3e35392be.png) 
+
+![image](https://user-images.githubusercontent.com/67390202/130526273-ba89daa1-c5ce-4497-8077-e2edce2529ec.png) ![image](https://user-images.githubusercontent.com/67390202/130526416-7ccca2bc-e8cc-477e-9b06-5835cd276f01.png) 
+
+![image](https://user-images.githubusercontent.com/67390202/130526457-02783e6e-1a48-4f3d-b22a-7dc432e3f94c.png) ![image](https://user-images.githubusercontent.com/67390202/130526479-d98cf735-3df2-42e2-ac00-edd4339a7c05.png)
+
+
 
 
 
